@@ -22,6 +22,22 @@ function DrawMenu()
     
     local max_run_length = ((config.custom_run or config.true_random) and 6) or 4
 
+    config.Active = config.Active or "Yes"
+    
+    rom.ImGui.Text("Start at selected Location")
+    if rom.ImGui.BeginCombo("###Active", config.Active) then
+        for _, ActiveName in ipairs(mod.ActiveOrder) do
+            if rom.ImGui.Selectable(ActiveName, (ActiveName == config.Active)) then
+                if ActiveName ~= previousConfig.Active then
+                    config.Active = ActiveName
+                    previousConfig.Active = ActiveName
+                end
+                rom.ImGui.SetItemDefaultFocus()
+            end
+        end
+        rom.ImGui.EndCombo()
+    end
+
     config.Biome = config.Biome or "Tartarus"
     
     rom.ImGui.Text("Select Biome")
