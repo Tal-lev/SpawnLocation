@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Adds partial Zagreus Journey support
+  - Tartarus H1 and Styx rooms added
+- DEV: Remove print of all room list on run start
+- FIX: Thunderstore now links to the correct github
+
 ## [0.1.0] - 2026-07-31
 
 - Initial version of the mod
