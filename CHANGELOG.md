@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Adds partial Zagreus Journey support
-  - Tartarus H1 and Styx rooms added
+  - Tartarus H1 and Styx, Greece rooms added
 - DEV: Remove print of all room list on run start
 - FIX: Thunderstore now links to the correct github
 
