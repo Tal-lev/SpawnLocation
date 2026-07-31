@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "JarlUlsfark"
 name = "SpawnLocation"
-versionNumber = "0.2.5"
+versionNumber = "0.1.0"
 description = "Allows Starting a run in a selected location from imgui menu"
 websiteUrl = "https://github.com/Tal-lev/SpawnEnemy"
 containsNsfwContent = false
