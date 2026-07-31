@@ -14,6 +14,9 @@ While the mod has been tested decently well it is recommended to backup your sav
 
 ## Known Issues
 
+- If the Starting room is not the first room in a Biome, the following room would be.
+- ZagreusJourney Room list not yet implemented
+
 ## Issues
 
 Report any issues on the mod [github](https://github.com/Tal-lev/SpawnLocation/issues) or [Hades Modding discord](https://discord.gg/KuMbyrN)
