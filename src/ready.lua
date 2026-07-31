@@ -25,9 +25,4 @@ modutil.mod.Path.Wrap("StartNewRun", function(base, prevRun, args)
         end
         args.RoomName = config.Location or ""
     end
-    print("!!!!!!!!!!!!!!!!!!!!!!!!!")
-    for key,value in pairs(RoomData) do
-        print(key)
-    end
-	return base(prevRun, args)
 end)
