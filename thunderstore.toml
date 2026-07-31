@@ -7,7 +7,7 @@ namespace = "JarlUlsfark"
 name = "SpawnLocation"
 versionNumber = "0.1.0"
 description = "Allows Starting a run in a selected location from imgui menu"
-websiteUrl = "https://github.com/Tal-lev/SpawnEnemy"
+websiteUrl = "https://github.com/Tal-lev/SpawnLocation"
 containsNsfwContent = false
 
 [package.dependencies]
