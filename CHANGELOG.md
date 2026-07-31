@@ -8,8 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Adds Chaos rooms to Erebus
-- Adds partial Zagreus Journey support
-  - Tartarus H1 and Styx, Greece rooms added
+- Add Ephyra hub room
+- Add Asphodel rooms to Oceanus
+- Add Elysium boss room to Tartarus
+- Adds partial Zagreus Journey support with rooms of
+  - Tartarus H1
+  - Styx
+  - Greece 
 - DEV: Remove print of all room list on run start
 - FIX: Thunderstore now links to the correct github
 
