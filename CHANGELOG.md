@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-07-31
+
 - Adds Chaos rooms to Erebus
 - Add Ephyra hub room
 - Add Asphodel rooms to Oceanus
@@ -26,5 +28,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod!
 
-[unreleased]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.0...HEAD
+[unreleased]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/Tal-lev/SpawnLocation/compare/29583ccf74896f68885dd9e656528eebf2174874...0.1.0
