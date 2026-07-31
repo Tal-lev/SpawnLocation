@@ -55,8 +55,15 @@ mod.LocationDisplayOrder = {
             "F_Shop01",
             "F_Reprieve01",
             "F_Story01",
+            "Chaos_01",
+            "Chaos_02",
+            "Chaos_03",
+            "Chaos_04",
+            "Chaos_05",
+            "Chaos_06",
+
         },
-        boss = {
+        Boss = {
             "F_MiniBoss01",
             "F_MiniBoss02",
             "F_MiniBoss03",
@@ -86,6 +93,14 @@ mod.LocationDisplayOrder = {
             "G_Combat18",
             "G_Combat19",
             "G_Combat20",
+            "B_Combat01",
+            "B_Combat05",
+            "B_Combat06",
+            "B_Combat07",
+            "B_Combat08",
+            "B_Combat10",
+            "B_Combat21",
+
         },
         Special = {
             "G_Intro",
@@ -177,6 +192,7 @@ mod.LocationDisplayOrder = {
             "I_MiniBoss02",
             "I_MiniBoss03",
             "I_Boss01",
+            "C_Boss01",
 
         },
     },
@@ -224,6 +240,7 @@ mod.LocationDisplayOrder = {
         Special = {
             "N_Opening01",
             "N_PreHub01",
+            "N_Hub",
             "N_PreBoss01",
             "N_PostBoss01",
             "N_Shop01",
@@ -354,13 +371,48 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
     OverwriteTableKeys(mod.LocationDisplayOrder,{
 		Tartarus_H1 = {
             Battle = {
-
+                "A_Combat01",
+                "A_Combat02",
+                "A_Combat03",
+                "A_Combat04",
+                "A_Combat05",
+                "A_Combat06",
+                "A_Combat07",
+                "A_Combat08A",
+                "A_Combat08B",
+                "A_Combat09",
+                "A_Combat10",
+                "A_Combat11",
+                "A_Combat12",
+                "A_Combat13",
+                "A_Combat14",
+                "A_Combat15",
+                "A_Combat16",
+                "A_Combat17",
+                "A_Combat18",
+                "A_Combat19",
+                "A_Combat20",
+                "A_Combat21",
+                "A_Combat22",
+                "A_Combat23",
+                "A_Combat24",
+                "A_Combat25",
             },
             Special = {
-
+                "A_PreBoss01",
+                "A_PostBoss01",
+                "A_Story01",
+                "A_Reprieve01",
+                "A_Shop01",
             },
             Boss = {
-
+                "A_MiniBoss01",
+                "A_MiniBoss02",
+                "A_MiniBoss03",
+                "A_MiniBoss04",
+                "A_Boss01",
+                "A_Boss02",
+                "A_Boss03",
             },
 		},
 		Asphodel = {
@@ -387,13 +439,40 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
 		},
 		Styx = {
             Battle = {
-
+                "D_Combat01",
+                "D_Combat02",
+                "D_Combat03",
+                "D_Combat04",
+                "D_Combat05",
+                "D_Combat06",
+                "D_Mini01",
+                "D_Mini02",
+                "D_Mini03",
+                "D_Mini04",
+                "D_Mini05",
+                "D_Mini06",
+                "D_Mini07",
+                "D_Mini08",
+                "D_Mini09",
+                "D_Mini10",
+                "D_Mini11",
+                "D_Mini12",
+                "D_Mini13",
+                "D_Mini14",
             },
             Special = {
-
+                "D_Intro",
+                "D_Hub",
+                "D_Reprieve01",
+                "E_Intro",
+                "E_Story01",
             },
             Boss ={
-
+                --"D_MiniBoss01",
+                --"D_MiniBoss02",
+                --"D_MiniBoss03",
+                --"D_MiniBoss04",
+                "D_Boss01",
             },
 		}
 	})
