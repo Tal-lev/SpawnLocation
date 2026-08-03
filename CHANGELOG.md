@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added End credits
+- Added Dream Run rooms
+- Added ZJ Erebus, Elysium, Asphodel rooms
+- Added ZJ Charon fight and sailing with Charon to Tartarus
+
 ## [0.1.1] - 2026-07-31
 
 - Adds Chaos rooms to Erebus
