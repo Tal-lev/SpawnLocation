@@ -186,6 +186,11 @@ mod.LocationDisplayOrder = {
             "I_ChronosFlashback01",
             --"I_TwoExits",
             "I_DeathAreaRestored", 
+            "EndCredits01",
+            "Dream_Intro",
+            "Dream_PostBoss01",
+            "Dream_PostBoss02",
+            "Dream_PostBoss03",
         },
         Boss = {
             "I_MiniBoss01",
@@ -399,6 +404,7 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
                 "A_Combat25",
             },
             Special = {
+                "RoomOpening",
                 "A_PreBoss01",
                 "A_PostBoss01",
                 "A_Story01",
@@ -417,24 +423,66 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
 		},
 		Asphodel = {
             Battle = {
-
+                "X_Combat01",
+                "X_Combat02",
+                "X_Combat03",
+                "X_Combat04",
+                "X_Combat05",
+                "X_Combat06",
+                "X_Combat07",
+                "X_Combat08",
+                "X_Combat09",
+                "X_Combat10",
+                "X_Combat21",
+                "X_Combat22",
             },
             Special = {
-
+                "X_Intro",
+                "X_PreBoss01",
+                "X_PostBoss01",
+                "X_Story01",
+                "X_Reprieve01",
+                "X_Shop01",
             },
             Boss = {
-
+                "X_Wrapping01",
+                "X_MiniBoss01",
+                "X_MiniBoss02",
+                "X_Boss01",
+                "X_Boss02",
             },
 		},
 		Elysium = {
             Battle = {
-
+                "Y_Combat01",
+                "Y_Combat02",
+                "Y_Combat03",
+                "Y_Combat04",
+                "Y_Combat05",
+                "Y_Combat06",
+                "Y_Combat07",
+                "Y_Combat08",
+                "Y_Combat09",
+                "Y_Combat10",
+                "Y_Combat11",
+                "Y_Combat12",
+                "Y_Combat13",
+                "Y_Combat14",
+                "Y_Combat15",
             },
             Special = {
-
+                "Y_Intro",
+                "Y_PreBoss01",
+                "Y_PostBoss01",
+                "Y_Story01",
+                "Y_Reprieve01",
+                "Y_Shop01",
             },
             Boss ={
-
+                "Y_MiniBoss01",
+                "Y_MiniBoss02",
+                "Y_MiniBoss03",
+                "Y_Boss01",
             },
 		},
 		Styx = {
@@ -459,6 +507,10 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
                 "D_Mini12",
                 "D_Mini13",
                 "D_Mini14",
+                "RoomChallenge01",
+                "RoomChallenge02",
+                "RoomChallenge03",
+                "RoomChallenge04",
             },
             Special = {
                 "D_Intro",
@@ -466,6 +518,12 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
                 "D_Reprieve01",
                 "E_Intro",
                 "E_Story01",
+                "Return01",
+                "Return02",
+                "Return03",
+                "Return04",
+                "Return05",
+                "Return06",
             },
             Boss ={
                 --"D_MiniBoss01",
@@ -473,6 +531,7 @@ if rom.mods['NikkelM-Zagreus_Journey'] then
                 --"D_MiniBoss03",
                 --"D_MiniBoss04",
                 "D_Boss01",
+                "CharonFight01",
             },
 		}
 	})
