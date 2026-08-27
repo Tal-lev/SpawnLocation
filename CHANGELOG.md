@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-08-27
+
 - Fix: Starting a Run in a boss room always caused the boss to be rivals version.
 
 ## [0.1.2] - 2026-08-03
@@ -37,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod!
 
-[unreleased]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.2...HEAD
+[unreleased]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.3...HEAD
+[0.1.3]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/Tal-lev/SpawnLocation/compare/29583ccf74896f68885dd9e656528eebf2174874...0.1.0
