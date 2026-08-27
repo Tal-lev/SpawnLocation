@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix: Starting a Run in a boss room always caused the boss to be rivals version.
+
 ## [0.1.2] - 2026-08-03
 
 - Added End credits
