@@ -34,3 +34,17 @@ modutil.mod.Path.Wrap("StartNewRun", function(base, prevRun, args)
     end
 	return base(prevRun, args)
 end)
+
+modutil.mod.Path.Wrap("InitHeroLastStands", function(base, newHero)
+    if config.Active == "Yes" and CurrentRun and CurrentRun.EnteredBiomes == 0 then
+        local StartingLocations = {
+            "F_Opening01", "F_Opening02", "F_Opening03", "G_Intro", "H_Intro", "I_Intro", 
+            "N_Opening01","O_Intro","P_Intro","Q_Intro","RoomOpening","X_Intro","Y_Intro",
+            "D_Intro","Dream_Intro",
+        } 
+        if not game.Contains( StartingLocations, config.Location) then
+            CurrentRun.EnteredBiomes = 1
+        end
+    end
+    return base(newHero)
+end)
