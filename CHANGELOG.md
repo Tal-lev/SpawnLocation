@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-10-05
+
 - Fix: Starting in a ZJ biome does not properly mark the run as a ZJ run.
 
 ## [0.1.3] - 2026-08-27
@@ -41,7 +43,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod!
 
-[unreleased]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.3...HEAD
+[unreleased]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.4...HEAD
+[0.1.4]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/Tal-lev/SpawnLocation/compare/0.1.0...0.1.1
