@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix: Starting in a ZJ biome does not properly mark the run as a ZJ run.
+
 ## [0.1.3] - 2026-08-27
 
 - Fix: Starting a Run in a boss room always caused the boss to be rivals version.
