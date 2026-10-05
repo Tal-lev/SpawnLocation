@@ -32,7 +32,12 @@ modutil.mod.Path.Wrap("StartNewRun", function(base, prevRun, args)
         end
         args.RoomName = config.Location or ""
     end
-	return base(prevRun, args)
+	currentRun = base(prevRun, args)
+    if game.Contains({"Tartarus","Asphodel","Elysium","Styx"},args.StartingBiome) then
+        currentRun.ModsNikkelMHadesBiomesIsModdedRun = true
+        CallFunctionName("NikkelM-Zagreus_Journey.ApplyGlobalGameObjectModifications",currentRun.ModsNikkelMHadesBiomesIsModdedRun)
+    end
+    return currentRun
 end)
 
 modutil.mod.Path.Wrap("InitHeroLastStands", function(base, newHero)
