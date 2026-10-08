@@ -9,28 +9,37 @@
 
 modutil.mod.Path.Wrap("StartNewRun", function(base, prevRun, args)
     if config.Active == "Yes" then
-        if config.Biome == "Erebus" then
+        local usedbiome = "F"
+        for biome,roomType in pairs(mod.LocationDisplayOrder) do
+            for key,room in pairs(roomType) do
+                if config.Location == room then
+                    usedbiome = biome
+                end
+            end
+        end
+
+        if usedbiome == "Erebus" then
             args.StartingBiome = "F"
-        elseif config.Biome == "Oceanus" then
+        elseif usedbiome == "Oceanus" then
             args.StartingBiome = "G"
-        elseif config.Biome == "Mourning_Fields" then
+        elseif usedbiome == "Mourning_Fields" then
             args.StartingBiome = "H"
-        elseif config.Biome == "Tartarus" then
+        elseif usedbiome == "Tartarus" then
             args.StartingBiome = "I"
-        elseif config.Biome == "Ephyra" then
+        elseif usedbiome == "Ephyra" then
             args.StartingBiome = "N"
-        elseif config.Biome == "Sea" then
+        elseif usedbiome == "Sea" then
             args.StartingBiome = "O"
-        elseif config.Biome == "Mount_Olympus" then
+        elseif usedbiome == "Mount_Olympus" then
             args.StartingBiome = "P"
-        elseif config.Biome == "Summit" then
+        elseif usedbiome == "Summit" then
             args.StartingBiome = "Q"
-        elseif config.Biome == "Tartarus_H1" then
+        elseif usedbiome == "Tartarus_H1" then
             args.StartingBiome = "Tartarus"
         else
-            args.StartingBiome = config.Biome or "F"
+            args.StartingBiome = usedbiome or "F"
         end
-        args.RoomName = config.Location or ""
+        args.RoomName = config.Location or "F_Opening01"
     end
 	currentRun = base(prevRun, args)
     if game.Contains({"Tartarus","Asphodel","Elysium","Styx"},args.StartingBiome) then
