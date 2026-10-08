@@ -21,7 +21,6 @@ While the mod has been tested decently well it is recommended to backup your sav
 ## Known Issues
 
 - If the Starting room is not the first room in a Biome, the following room would be.
-- Selecting starting biome with incompatible Room / Biome causes the game to crash.
 
 ## Issues
 
